@@ -1,0 +1,107 @@
+/*custom styles*/
+:root{
+	--dk-grey: #3A3A3A;
+	--lt-pink: #FCE4EC;
+	--md-pink: #F9BFCB;
+	--dk-pink: #FF80AB;
+	--lt-blue: #A8E1EA;
+	--cream: #FCECC9;
+	--playfair: "Playfair Display", serif;
+	--outfit: "Outfit", sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 700px;
+}
+
+main{
+	padding: 100px;
+	background-color: var(--cream);
+	color: var(--dk-grey);
+}
+
+.hero-image{
+	background-image: linear-gradient(
+	rgba(255,240,245,0.5),
+	rgba(0,0,0,0.5)), 
+	url("images/hero.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 80vh;
+	display: flex;
+}
+
+.hero-text{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-left: 15px;
+}
+
+h1{
+	float: right;
+	padding: 15px;
+	color: white;
+	font-family: var(--playfair);
+}
+
+h2{
+	padding: 20px 0;
+	font-family: var(--playfair);
+}
+
+ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+li{
+	padding: 10px;
+}
+
+/*change color of hover*/
+li:hover a{
+	background-color: var(--md-pink);
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: var(--dk-grey);
+	transition: color 0.3s ease;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+#about{
+	overflow: auto;
+}
+
+.mini-about p{
+	text-align: left;
+}
+
+img{
+	width: 300px;
+	float: left;
+	padding-right: 20px;
+}
+
+#carouselExampleIndicators, .carousel-inner{
+	height: 800px;
+	width: 800px;
+}
+
+footer{
+    padding: 2rem;
+    background-color: var(--md-pink);
+    color: var(--white);
+    text-align: center;
+}
