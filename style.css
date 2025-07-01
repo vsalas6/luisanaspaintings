@@ -1,7 +1,7 @@
 /*custom styles*/
 :root{
 	--dk-grey: #3A3A3A;
-	--lt-pink: #FCE4EC;
+	--lt-pink: #FFF0F5;
 	--md-pink: #F9BFCB;
 	--dk-pink: #FF80AB;
 	--lt-blue: #A8E1EA;
@@ -18,7 +18,7 @@ body{
 
 main{
 	padding: 100px;
-	background-color: var(--cream);
+	background-color: var(--lt-pink);
 	color: var(--dk-grey);
 }
 
