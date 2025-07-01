@@ -43,7 +43,7 @@ main{
 	padding-left: 15px;
 }
 
-h1{
+.hero-text h1{
 	float: right;
 	padding: 15px;
 	color: white;
@@ -99,9 +99,23 @@ img{
 	width: 800px;
 }
 
+#contact{
+	height: 250px;
+	background-color: white;
+}
+
+#contact h1{
+	color: black;
+	font-family: var(--playfair);
+	padding: 15px;
+	text-align: center;
+}
+
 footer{
     padding: 2rem;
     background-color: var(--md-pink);
-    color: var(--white);
-    text-align: center;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
 }
